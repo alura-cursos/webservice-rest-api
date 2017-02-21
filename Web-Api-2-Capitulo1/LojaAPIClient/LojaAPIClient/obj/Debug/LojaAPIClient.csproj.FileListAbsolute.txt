@@ -1,0 +1,6 @@
+c:\users\rafael\documents\visual studio 2015\Projects\LojaAPIClient\LojaAPIClient\bin\Debug\LojaAPIClient.exe.config
+c:\users\rafael\documents\visual studio 2015\Projects\LojaAPIClient\LojaAPIClient\obj\Debug\LojaAPIClient.csprojResolveAssemblyReference.cache
+c:\users\rafael\documents\visual studio 2015\Projects\LojaAPIClient\LojaAPIClient\bin\Debug\LojaAPIClient.exe
+c:\users\rafael\documents\visual studio 2015\Projects\LojaAPIClient\LojaAPIClient\bin\Debug\LojaAPIClient.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\LojaAPIClient\LojaAPIClient\obj\Debug\LojaAPIClient.exe
+c:\users\rafael\documents\visual studio 2015\Projects\LojaAPIClient\LojaAPIClient\obj\Debug\LojaAPIClient.pdb
