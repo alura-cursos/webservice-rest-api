@@ -13,6 +13,25 @@ namespace LojaAPIClient
         static void Main(string[] args)
         {
             string conteudo;
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://localhost:PortaDoSeuServidor/api/carrinho/1");
+            request.Method = "GET";
+            request.Accept = "application/xml";
+            //request.Accept = "application/json";
+
+            WebResponse response = request.GetResponse();
+            using (Stream responseStream = response.GetResponseStream())
+            {
+                StreamReader reader = new StreamReader(responseStream, Encoding.UTF8);
+                conteudo = reader.ReadToEnd();
+            }
+
+            Console.Write(conteudo);
+            Console.Read();
+        }
+
+        static void TestaGet(string[] args)
+        {
+            string conteudo;
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://localhost:60852/api/carrinho/1");
             request.Method = "GET";
 
